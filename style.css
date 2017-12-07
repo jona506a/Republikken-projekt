@@ -88,7 +88,7 @@ a:hover {
     padding: 50px;
     padding-top: 125px;
 
-    background: #60a2a6;
+    background: #a1cacc;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -125,6 +125,7 @@ h1 {
 h2 {
     padding-left: 2vw;
     padding-right: 2vw;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -141,6 +142,11 @@ p {
 
 .img {
     width: 100%;
+}
+
+.ide_link {
+    font-size: 50px;
+    width: 90vw;
 }
 
 .img_expressionboard {
@@ -184,13 +190,7 @@ td {
 }
 
 #resultat {
-    padding: 20px;
-    text-align: center;
-    background-color: #123e66;
-}
-
-#resultat a {
-    color: #FFF;
+    background-color: #e6e6e6;
 }
 
 .expressionboard {
@@ -200,4 +200,43 @@ td {
 .farve {
     font-weight: bold;
     color: #60a2a6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.data_mining {
+    color: #FFF;
+    background-color: #60a2a6;
+}
+
+.kodning_data {
+    text-align: center;
+}
+
+
+.gruppen h4 {
+    text-align: center;
+}
+
+.gruppen p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.gruppen img {
+    box-shadow: 2px -2px 16px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.gruppen .column {
+    padding: 0em 2.5em 1.5em 1.5em;
+    flex-grow: 1;
+    flex-basis: 50px;
 }
