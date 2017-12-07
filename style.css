@@ -141,7 +141,12 @@ p {
 
 .img {
     width: 100%;
+}
+
+.img_expressionboard {
+    width: 100%;
     border: solid 1px #bababa;
+    cursor: pointer;
 }
 
 .bred_td {
