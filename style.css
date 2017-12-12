@@ -215,6 +215,12 @@ td {
     background-color: #60a2a6;
 }
 
+.pitch_h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
 .kodning_data {
     text-align: center;
 }
