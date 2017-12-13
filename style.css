@@ -210,6 +210,15 @@ td {
     font-style: italic;
 }
 
+video {
+    width: 100%;
+}
+
+.blaa {
+    color: #FFF;
+    background-color: #60a2a6;
+}
+
 .data_mining {
     color: #FFF;
     background-color: #60a2a6;
